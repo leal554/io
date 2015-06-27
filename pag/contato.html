@@ -1,0 +1,67 @@
+<html>
+<head>
+	<link rel="stylesheet" href="../css/cores.css"/>
+	<link rel="stylesheet" href="../css/texto.css"/>
+	<link rel="stylesheet" href="../css/erroFormularioContato.css"/>
+	<script src="../scr/formularioContato.js"></script>
+</head>
+<body>	
+	<br>
+	<div align="center" style="WIDTH: 100%">
+		<h3>Telefones para contato</h3>
+			<p style="text-align:center">
+				Central: 0800 555 0100
+			</p>
+
+		<h3>Locais</h3>
+		<p style="text-align:center">
+			<br>Av. Paulista, 627 - São Paulo - SP 
+			<br>(11) 5031-2342 / 34234-2342
+			<br>contato@merryweathersecurity.com.br
+		</p>
+
+		<h3>Formulário de Contato</h3>
+		
+		<div id="erro" width="100%"></div>
+
+		<form name="form1" action="" method="post" onsubmit="return Validar()">
+			<table border=0 width="100%">
+				<tr>
+					<td width="50%">
+						<table border=0 width="100%">
+							<tr><td><p style="text-align:right">Nome:</p></td></tr>
+							<tr><td><p style="text-align:right">e-Mail:</p></td></tr>
+							<tr><td><p style="text-align:right">Idade:</p></td></tr>
+						</table>
+					</td>
+	
+					<td width="50%">
+						<table border=0 width="100%">
+							<tr><td><input type="text" name="nome" id="nome"></td></tr>
+							<tr><td><input type="text" name="email" id="email"></td></tr>
+							<tr><td><input type="text" name="idade" id="idade"></td></tr>                                                        
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<table border=0 width="100%">
+				<tr>
+					<td align="center">
+						<p style="text-align:center">Assunto:</p>
+						<textArea name="assunto" id="assunto" rows=5 cols=80></textArea>
+					</td>
+				</tr>
+
+				<tr>
+					<td align="center">
+						<br>
+						<input type="submit" value="Enviar" />
+						<input type="reset" value="Limpar" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

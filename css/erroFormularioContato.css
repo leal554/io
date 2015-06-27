@@ -1,0 +1,14 @@
+.bordaRed{
+	border : 2px solid #f00;
+}
+
+.bordaGreen{
+	border : 2px solid #0F0;
+}
+
+#erro{
+	border:1px dotted #f00;
+	background-color:#FDD;
+	color:#800;
+	display:nome;
+}

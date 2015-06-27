@@ -1,0 +1,9 @@
+.lado{  float: left}
+
+#gde { width:200px; }
+
+.flecha{
+	position: relative;
+	height:10%;
+	top:100px;
+}

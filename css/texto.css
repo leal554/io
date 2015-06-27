@@ -1,0 +1,26 @@
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h3{
+	font-family: sans-serif;
+	margin:0;
+	position:relative;
+	letter-spacing: 2px;	
+}
+
+h4{
+	font-family: sans-serif;
+	margin:0;
+	position:relative;
+	letter-spacing: 2px;	
+}
+
+
+p{
+	font-family: sans-serif;
+	text-align: justify;
+	letter-spacing: 1px;
+}
